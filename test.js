@@ -1,5 +1,5 @@
 const http = require('http')
-const { sendPosts } = require('./sendPosts') 
+const { hello, sendPosts } = require('./functions') 
 
 const server = http.createServer((req, res) => { 
     const { url, method } = req

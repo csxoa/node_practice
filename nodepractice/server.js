@@ -33,7 +33,7 @@ app.put('/posts/:id', (req, res) => {
     const { id } = req.params
     const { username, title, description } = req.params
 
-    // if (username) errorGenerator(400, 'badrequest')
+    // if (username) errorGenerator(400, 'badrequest')  
     // error handling
 
     posts = posts.map((post)=> { // index 를 찾기 위해 map 함수를 쓴다.
